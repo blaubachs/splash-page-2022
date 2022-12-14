@@ -1,0 +1,39 @@
+* {
+    text-align: center;
+    background-color: darkgrey;
+}
+
+header {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    height: 80px;
+    width: 100%;
+    background-color: lightsteelblue;
+    border-bottom: 5px solid black;
+}
+
+ul {
+    text-align: right;
+}
+
+header ul li {
+    text-decoration: underline;
+    list-style-type: none;
+    display: inline;
+    font-size: 40px;
+    color:black;
+    border: 5px solid black;
+
+}
+
+main {
+    position:relative;
+    top: 100px;
+}
+
+.top-list {
+    padding: 15px 3px 0px 3px;
+}

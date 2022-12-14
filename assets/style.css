@@ -73,10 +73,15 @@ footer {
 #cat {
     width: 400px;
     height: 400px;
-    padding-top: 50px;
+    padding: 50px;
+    margin: auto;
 }
 
-#run {
+#lorem {
+    font-size: 20px;
+}
+
+#love {
     color: red;
     font-weight: bold;
 }

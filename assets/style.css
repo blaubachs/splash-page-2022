@@ -32,10 +32,9 @@ header a {
 header ul li {
     list-style-type: none;
     display: inline;
-    font-size: 40px;
+    font-size: 30px;
     color:black;
     padding: 5px;
-    border: 5px solid black;
 }
 
 main {
@@ -89,4 +88,8 @@ footer {
 #namefields {
     position: relative;
     top: 10px;
+    padding:10px;
+    margin: 50;
+    border: 5px solid rgb(151, 177, 211);
+    border-radius: 15px
 }

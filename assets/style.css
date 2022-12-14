@@ -72,8 +72,10 @@ footer {
 #cat {
     width: 400px;
     height: 400px;
-    padding: 50px;
-    margin: auto;
+    /* padding: 50px; */
+    margin: 50px;
+    border: 3px black solid;
+    box-shadow: 10px 10px gray;
 }
 
 #lorem {
@@ -85,6 +87,9 @@ footer {
     font-weight: bold;
 }
 
+#probably {
+    font-size: 11px;
+}
 #namefields {
     position: relative;
     top: 10px;

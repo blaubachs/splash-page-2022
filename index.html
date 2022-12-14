@@ -1,44 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css" />
     <title>About Me</title>
-</head>
+  </head>
 
-
-<body>
-   
-    
-<header>
-    <ul class="top-list">
+  <body id="body">
+    <header>
+      <ul class="top-list">
         <li>
-            <a href="https://github.com/blaubachs" target="_blank"><strong>Github</strong></a>
+          <a href="https://github.com/blaubachs" target="_blank"
+            ><strong>Github</strong></a
+          >
         </li>
         <li>
-            <a href="#"><strong>Portfolio</strong></a>
+          <a href="#"><strong>Portfolio</strong></a>
         </li>
         <li>
-            <a href="mailto:veloswim@gmail.com"><strong>Contact</strong></a>
+          <a href="mailto:veloswim@gmail.com"><strong>Contact</strong></a>
         </li>
-    </ul>
-</header>
+      </ul>
+    </header>
 
     <main>
-        <h1>My Website</h1>
-        <hr>
-        
-        <section>
-            <img src="./assets/images/yooki2.jpg" alt="Picture of yuki yelling">
-        </section>
+      <h1>My Website</h1>
+      <hr />
+      <section class="paragraph-1">
+        <img id="cat" src="./assets/images/yooki2.jpg" alt="Picture of yuki yelling" />
+        <p>
+          <em>
+            This is a picture of my cat. She is hell. If you see this face,
+            <span id="run">run</span>.
+          </em>
+        </p>
+      </section>
+
     </main>
-    
-<footer>
-    <h1>&copy; Ben's New Website</h1>
-</footer>
 
-</body>
+    <footer>
+      <section id="namefields">
+        <label for="Name">Name:</label>
+        <input type="text" id="Name" name="name" />
+        <label for="Email">Email:</label>
+        <input type="text" id="Email" name="email" />
+        <button id="button" type="submit">Send!</button>
+      </section>
 
+      <h1>&copy; Ben's New Website</h1>
+    </footer>
+  </body>
 </html>

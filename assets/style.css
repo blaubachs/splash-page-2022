@@ -65,6 +65,11 @@ footer {
     font-size: 30px;
 }
 
+.audio {
+    position:relative;
+    bottom: 320px;
+}
+
 #body {
     background-color:aliceblue;
 }
@@ -72,8 +77,7 @@ footer {
 #cat {
     width: 400px;
     height: 400px;
-    /* padding: 50px; */
-    margin: 50px;
+    margin: 0px 50px 10px 50px;
     border: 3px black solid;
     box-shadow: 10px 10px gray;
 }
@@ -91,7 +95,6 @@ footer {
     font-size: 11px;
 }
 #namefields {
-    position: relative;
     top: 10px;
     padding:10px;
     margin: 50;

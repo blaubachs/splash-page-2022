@@ -70,6 +70,12 @@ footer {
     bottom: 320px;
 }
 
+.hidethis {
+    height:100px;
+    padding:15px;
+    display:hidden;
+}
+
 #body {
     background-color:aliceblue;
 }
